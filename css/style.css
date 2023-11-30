@@ -1,0 +1,109 @@
+*, html, body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+:root{
+    --textColor:rgb(95, 96, 96);
+}
+
+body{
+    background-color: lightblue;
+}
+#navbar {
+    height: 80px;
+    background-image: linear-gradient(to right,rgb(99, 99, 239), blue) ;
+    gap: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#navbar a {
+    align-items: center;
+    margin-right: 12px;
+    font-size: larger;
+    color: aliceblue;
+    text-decoration: none;
+}
+
+span{
+    padding: 16px;
+}
+
+.Homepage{
+    display: flex;
+    padding-top: 50px;
+}
+
+h1{
+    padding-top: 50px;
+    padding-left: 60px;
+    margin-bottom: 50px;
+    font-size: 50px;
+    color: var(--textColor);
+}
+
+img{
+    margin-left: 60px;
+    border-radius: 100%;
+}
+
+.desc{
+    max-width: 500px;
+    padding: 60px;
+    text-overflow: ellipsis;
+}
+
+.desc h2{
+    margin-bottom: 10px;
+    color: var(--textColor);
+}
+
+.desc p{
+    font-size: 16px;
+    font-weight: 700;
+}
+
+ul{
+    display: flex;
+    gap: 40px;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li a:nth-child(1){
+    text-decoration: none;
+    color: var(--textColor);
+}
+
+
+ul li a:hover{
+    color: rgb(0, 0, 0);
+}
+
+.footer{
+    min-height: 90px;
+}
+
+.footer p{
+    padding-top: 100px;
+    text-align: center;
+    color: var(--textColor);
+}
+
+.artikel{
+    background-color: rgb(44, 44, 44);
+    padding: 14px;
+    border-radius: 100px;
+    margin-left: 60px;
+    text-decoration: none;
+    color: white;
+}
+
+.artikel:hover{
+    background-color: black;
+}
+

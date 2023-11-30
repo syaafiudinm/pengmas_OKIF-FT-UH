@@ -1,0 +1,143 @@
+*, html, body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+:root{
+    --textColor:rgb(95, 96, 96);
+    --blogColor:rgb(73, 73, 225);
+    --artikelColor:#3600e7;
+}
+
+body{
+    background-color: lightblue;
+}
+#navbar {
+    height: 80px;
+    background-image: linear-gradient(to right,rgb(99, 99, 239), blue) ;
+    gap: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#navbar a{
+    align-items: center;
+    margin-right: 12px;
+    font-size: larger;
+    color: aliceblue;
+    text-decoration: none;
+}
+
+span{
+    padding: 16px;
+}
+
+.Judul{
+    padding: 10px;
+    text-align: center;
+}
+
+.container{
+    display: flex;
+    padding-top: 20px;
+    padding-left: 180px;
+}
+
+.blog1{
+    background-color: var(--blogColor);
+    padding: 14px;
+    border-radius: 12px;
+    max-width: 250px;
+    margin-right: 60px;
+}
+
+.blog1 h2{
+    padding-bottom: 10px;
+}
+.blog2{
+    background-color: var(--blogColor);
+    padding: 14px;
+    border-radius: 12px;
+    max-width: 250px;
+    margin-right: 60px;
+}
+
+.blog2 h2{
+    padding-bottom: 10px;
+}
+.blog3{
+    background-color: var(--blogColor);
+    padding: 14px;
+    border-radius: 12px;
+    max-width: 250px;
+    margin-right: 60px;
+}
+
+.blog3 h2{
+    padding-bottom: 10px;
+}
+.blog4{
+    background-color: var(--blogColor);
+    padding: 14px;
+    border-radius: 12px;
+    max-width: 250px;
+    margin-right: 60px;
+}
+.blog4 h2{
+    padding-bottom: 10px;
+}
+
+#artikel{
+    padding: 20px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    text-align: center;
+}
+
+.container2{
+    padding-top: 20px;
+    padding-left: 150px;
+    display: flex;
+}
+
+.artikel1{
+    background-color: var(--artikelColor);
+    border-radius: 14px;
+    padding: 14px;
+    max-width: 300px;
+    margin-right: 15px;
+}
+.artikel2{
+    background-color: var(--artikelColor);
+    border-radius: 14px;
+    padding: 14px;
+    max-width: 300px;
+    margin-right: 15px;
+}
+.artikel3{
+    background-color: var(--artikelColor);
+    border-radius: 14px;
+    padding: 14px;
+    max-width: 300px;
+    margin-right: 15px;
+}
+.artikel4{
+    background-color: var(--artikelColor);
+    border-radius: 14px;
+    padding: 14px;
+    max-width: 300px;
+    margin-right: 15px;
+}
+
+.footer{
+    min-height: 90px;
+}
+
+.footer p{
+    padding-top: 70px;
+    text-align: center;
+    color: var(--textColor);
+}
